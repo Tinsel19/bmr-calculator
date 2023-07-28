@@ -101,7 +101,7 @@ calculate.addEventListener('click', () => {
          }		
       }
     
-    document.getElementById('bmr').innerHTML = 'Your BMR Result: ' + bmr + ' Per Day';
+    document.getElementById('bmr').innerHTML = 'Your BMR Result: ' + bmr ;
     document.getElementById('result1').innerHTML = Math.round(bmr*1.2);
     document.getElementById('result2').innerHTML = Math.round(bmr*1.375);
     document.getElementById('result3').innerHTML = Math.round(bmr*1.466);
